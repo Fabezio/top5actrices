@@ -1,0 +1,168 @@
+* {
+	padding: 0;
+	color: black;
+	text-align: center; 
+}
+
+body {
+	background: #bfbfbf url('img/background.jpg' ) scroll top repeat-x;
+	width: 100%;
+	font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+	font-family: LimeLight;
+}
+
+p {
+}
+
+button {
+}
+
+header {
+	height: 100px;
+}
+
+header h1 {
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 40px ;
+}
+
+section {
+	background: rgba(200,200,200,0.5);
+}
+
+ul, ol {
+	list-style: none;
+}
+
+/*Menu principal */
+	#main-menu ul {
+		width: 980px;
+		height: 500px;
+		margin: 0 auto;
+		padding-top: 140px;
+	}
+	
+
+	#main-menu ul li {
+		float: left;
+		width: 140px;
+		height: 500px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.bw, .color {
+		width: 140px;
+		height: 500px;
+		cursor: pointer;
+		position: absolute;
+	}
+
+	.bw {
+		left: 0px;
+		opacity: 0.7;
+		background: url('img/bw-image.jpg') no-repeat;
+	}
+
+	.color {
+		background: url('img/color-image.jpg') no-repeat;
+		left: 140px;
+	}
+
+	#part1 {}
+	
+	#part2 div {
+		background-position: -140px 0;
+	}
+	
+	#part3 div {
+		background-position: -280px 0;
+
+	}
+	
+	#part4 div {
+		background-position: -420px 0;
+	}
+	
+	#part5 div {
+		background-position: -560px 0;
+	}
+
+	.description {
+		position: absolute;
+		left: 140px;
+		width: 240px;
+		height: 460px;
+		padding: 20px;
+		background: #fff;
+		font-family: 'Lobster';
+	}
+	
+	.description h2 {
+		padding-top: 20px;
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+
+	.description h3 {
+		margin-top: 30px;
+		padding: 10px;
+		font-size: 26px;
+		background: #d70000; 
+		color: #fff;
+		text-shadow: 1px 1px 1px #000;
+		border-radius: 5px;
+	}
+	
+
+	.description p {
+		padding-top: 35px;
+		font-size: 22px
+		color: #000;
+	}
+
+/* buttons menu */
+	#buttons-menu {
+		float: left;
+		width: 100%; 
+		padding: 120px 0 50px;
+	}
+	
+	#buttons-menu ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.button {
+		margin: 10px;
+		padding: 10px 35px;
+		background: #333;
+		border: 2px solid #d70000;
+		border-radius: 5px;
+		box-shadow: 4px 4px 4px rgba(0,0,0,0.75);
+		color: #fff;
+		font-weight: bold;
+		font-size: 22px;
+		font-family: Lobster;
+		cursor:pointer;
+		opacity: 0.9;
+	}
+
+	.button:hover {
+		background: #b70000;
+		border: 2px solid #333;
+		font-size: 24px;
+	}
+	
+	.hovered {
+		background: #b70000;
+		border: 2px solid #333;
+		font-size: 24px;
+	}
+	
